@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class POO_01 {
 	public static void main(String[] args ) {
-		
-		System.out.println("Calculadora");
+		System.err.println("Calculadora");
 		
 		double a, b, peso, altura;
 		
