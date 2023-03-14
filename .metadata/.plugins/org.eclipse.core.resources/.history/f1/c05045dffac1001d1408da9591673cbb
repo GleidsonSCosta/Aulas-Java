@@ -1,0 +1,19 @@
+package calculadora;
+
+import java.util.Scanner;
+
+public class POO_01 {
+	public static void main(String[] args ) {
+		System.err.println("Calculadora");
+		
+		double a, b;
+		
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("Primeiro valor: ");
+		a = ler.nextDouble();
+		
+		System.out.println("Segundo valor: ");
+		b = ler.nextDouble();
+	}
+}
