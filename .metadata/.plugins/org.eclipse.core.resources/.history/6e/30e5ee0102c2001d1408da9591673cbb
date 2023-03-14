@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class POO_01 {
 	public static void main(String[] args ) {
 		
-		// Imprimir na tela
 		System.out.println("Calculadora");
 		
 		double a, b;
 		
-		// Captura informações digitadas pelo usuário
 		Scanner ler = new Scanner(System.in);
 		
 		System.out.println("Primeiro valor: ");
@@ -19,7 +17,6 @@ public class POO_01 {
 		System.out.println("Segundo valor: ");
 		b = ler.nextDouble();	
 		
-		// Criando objeto calcular
 		Matematica calcular  = new Matematica(a, b);
 		
 		System.out.println("\n---------------------\n");
@@ -29,7 +26,6 @@ public class POO_01 {
 		System.out.println("\nA divisão dos valores é: " + calcular.dividir());
 		System.out.println("\n---------------------\n");
 		
-		// Criando objeto calcular
 		Matematica imc = new Matematica(a, b);
 		
 		System.out.println("Calcular IMC");

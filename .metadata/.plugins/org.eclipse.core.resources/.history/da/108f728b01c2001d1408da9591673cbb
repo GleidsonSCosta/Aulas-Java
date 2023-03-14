@@ -2,7 +2,7 @@ package calculadora;
 
 public class Matematica {
 	// Atributos locais
-	double a, b;
+	double a, b, peso, altura;
 	
 	//Método Construtor
 	public Matematica(double num_a, double num_b) {
