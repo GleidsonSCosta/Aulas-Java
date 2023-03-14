@@ -32,7 +32,7 @@ public class Matematica {
 	
 	//IMC
 	public double imc() {
-		return (a / (b * b));
+		return altura / (altura * altura);
 	}
 }
 
